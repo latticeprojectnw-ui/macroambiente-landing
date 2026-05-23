@@ -59,7 +59,8 @@ main {
 }
 
 .brand {
-  width: min(240px, 54vw);
+  display: inline-flex;
+  align-items: center;
 }
 
 .site-nav {
@@ -68,6 +69,14 @@ main {
   gap: 1.4rem;
   font-size: 0.94rem;
   color: var(--text-muted);
+}
+
+.brand-text {
+  font-family: "Arial Black", "Franklin Gothic Heavy", sans-serif;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-dark);
 }
 
 .header-cta,
@@ -146,15 +155,6 @@ main {
   inset: 16px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 24px;
-}
-
-.hero-mark {
-  position: absolute;
-  right: -20%;
-  bottom: -10%;
-  width: min(92vw, 690px);
-  opacity: 0.13;
-  animation: heroFloat 10s ease-in-out infinite;
 }
 
 .hero-copy {
@@ -341,10 +341,12 @@ main {
   border: 1px solid rgba(56, 54, 50, 0.08);
 }
 
-.client-logo img {
-  max-width: 100%;
-  max-height: 74px;
-  object-fit: contain;
+.client-name {
+  font-family: "Arial Black", "Franklin Gothic Heavy", sans-serif;
+  font-size: clamp(0.9rem, 2vw, 1.05rem);
+  line-height: 1.2;
+  text-align: center;
+  color: rgba(41, 39, 35, 0.76);
   filter: grayscale(1) contrast(1.02);
 }
 
@@ -462,7 +464,6 @@ main {
   }
 
   .reveal,
-  .hero-mark,
   .button,
   .header-cta {
     animation: none;
