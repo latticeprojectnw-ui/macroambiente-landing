@@ -1,185 +1,333 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Macroambiente | Control de plagas y cumplimiento sanitario</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Macroambiente Elite | Control sanitario corporativo</title>
   <meta
     name="description"
-    content="Landing corporativa de Macroambiente para empresas, comercios e industrias, enfocada en control de plagas, continuidad operativa y cumplimiento sanitario."
-  >
-  <link rel="stylesheet" href="./styles.css">
+    content="Macroambiente protege la continuidad operativa de empresas, comercios e industrias con control de plagas, sanitización y respaldo técnico para cumplimiento sanitario."
+  />
+  <meta name="author" content="Macroambiente" />
+  <meta property="og:title" content="Macroambiente | Control sanitario corporativo" />
+  <meta property="og:description" content="Control de plagas con estándar corporativo, respaldo documental y foco operativo." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="Ir al inicio de Macroambiente">
-      <span class="brand-text">Macroambiente</span>
-    </a>
-    <nav class="site-nav" aria-label="Navegacion principal">
-      <a href="#credibilidad">Credibilidad</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#clientes">Clientes</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-    <a class="header-cta" href="mailto:contacto@macroambiente.cl?subject=Solicitud%20de%20cotizacion%20-%20Macroambiente">Solicitar cotizacion</a>
+    <div class="header-container">
+      <a class="logo-container" href="#inicio" aria-label="Ir al inicio">
+        <img src="./assets/logo-horizontal-cropped.svg" alt="Macroambiente - Control de plagas" />
+      </a>
+
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#problema">Riesgos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#evidencia">Confianza</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a
+        class="btn btn-primary header-cta"
+        href="mailto:contacto@macroambiente.cl?subject=Solicitud%20de%20cotizacion%20-%20Macroambiente"
+      >
+        <i class="fa-solid fa-file-signature" aria-hidden="true"></i>
+        Solicitar cotización
+      </a>
+    </div>
   </header>
 
   <main>
     <section class="hero" id="inicio">
-      <div class="hero-backdrop" aria-hidden="true">
-        <div class="hero-ring"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Cumplimiento sanitario + continuidad operativa</p>
+          <h1>Control de plagas con estándar corporativo y foco real en efectividad, seguridad y continuidad operativa.</h1>
+          <p class="hero-text">
+            Macroambiente ayuda a empresas, comercios e industrias a reducir riesgo sanitario, proteger sus instalaciones
+            y sostener continuidad operativa con intervenciones técnicas, respaldo documental y criterio preventivo.
+          </p>
+
+          <div class="cta-group">
+            <a
+              class="btn btn-primary"
+              href="mailto:contacto@macroambiente.cl?subject=Solicitud%20de%20cotizacion%20-%20Macroambiente"
+            >
+              <i class="fa-solid fa-file-signature" aria-hidden="true"></i>
+              Solicitar cotización
+            </a>
+            <a
+              class="btn btn-secondary"
+              href="https://wa.me/56987229688?text=Hola%2C%20quiero%20solicitar%20una%20cotizacion%20con%20Macroambiente."
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              WhatsApp empresa
+            </a>
+          </div>
+
+          <div class="hero-stats reveal" aria-label="Indicadores de experiencia">
+            <div class="stat-item">
+              <div class="stat-number" data-counter data-target="15" data-prefix="+">0</div>
+              <div class="stat-label">años de experiencia</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-counter data-target="500" data-prefix="+">0</div>
+              <div class="stat-label">clientes atendidos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-counter data-target="100" data-suffix="%">0%</div>
+              <div class="stat-label">servicios certificados</div>
+            </div>
+          </div>
+
+          <ul class="hero-badges" aria-label="Fortalezas clave">
+            <li>Resolución sanitaria vigente</li>
+            <li>Intervenciones certificadas</li>
+            <li>Respaldo para auditorías</li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel reveal" aria-label="Respaldo sanitario y operacional">
+          <div class="hero-brand-lockup">
+            <span class="brand-mark-wrap" aria-hidden="true">
+              <img class="hero-logo-mark" src="./assets/logo-icono-cropped.svg" alt="" />
+            </span>
+            <img class="seremi-logo" src="./assets/img/logo-minsal-chile.png" alt="Ministerio de Salud de Chile" />
+          </div>
+          <p class="panel-kicker">Lo que está en juego</p>
+          <h2>No se trata solo de plagas.</h2>
+          <p>
+            Se trata de evitar interrupciones, observaciones sanitarias, pérdida de confianza y deterioro de la imagen
+            del negocio.
+          </p>
+
+          <div class="panel-stat-grid">
+            <article>
+              <strong>Empresas</strong>
+              <span>protocolos más exigentes</span>
+            </article>
+            <article>
+              <strong>Comercios</strong>
+              <span>operación continua</span>
+            </article>
+            <article>
+              <strong>Industrias</strong>
+              <span>respaldo documental</span>
+            </article>
+            <article>
+              <strong>Auditorías</strong>
+              <span>evidencia verificable</span>
+            </article>
+          </div>
+        </aside>
       </div>
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Control de plagas y cumplimiento sanitario</p>
-        <h1>Para empresas, comercios e industrias.</h1>
-        <p class="hero-text">
-          Protegemos la continuidad operativa de tu empresa con intervenciones certificadas y respaldo documental para fiscalizaciones y auditorias.
+    </section>
+
+    <section class="trust-strip" id="credibilidad">
+      <div class="container cards-grid">
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa-solid fa-file-circle-check" aria-hidden="true"></i></div>
+          <p class="mini-kicker">Confianza técnica</p>
+          <h3>Resolución SEREMI vigente</h3>
+          <p>Capacidad formal para ejecutar intervenciones sanitarias con respaldo trazable.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa-solid fa-user-graduate" aria-hidden="true"></i></div>
+          <p class="mini-kicker">Capacitación</p>
+          <h3>Técnicos capacitados ACHICPLA</h3>
+          <p>Personal capacitado bajo estándares de la Asociación Chilena de Empresas de Control de Plagas.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i></div>
+          <p class="mini-kicker">Cumplimiento</p>
+          <h3>Documentación de soporte</h3>
+          <p>Respaldo útil para fiscalizaciones, auditorías internas y fiscalizaciones sanitarias.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa-solid fa-star" aria-hidden="true"></i></div>
+          <p class="mini-kicker">Experiencia</p>
+          <h3>Trayectoria comprobada</h3>
+          <p>Experiencia sostenida en contextos empresariales, comerciales e industriales.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block problem-section" id="problema">
+      <div class="container section-intro reveal">
+        <p class="section-kicker">El macroambiente del negocio</p>
+        <h2>Factores externos que elevan el riesgo sanitario y afectan la continuidad operativa.</h2>
+        <p>
+          Macroambiente existe para intervenir sobre variables que muchas empresas no controlan directamente:
+          humedad, residuos, tránsito, infraestructura, vectores y exigencias sanitarias crecientes.
         </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="mailto:contacto@macroambiente.cl?subject=Solicitud%20de%20cotizacion%20-%20Macroambiente">Solicitar cotizacion</a>
-          <a class="button button-tertiary" href="https://wa.me/56991882130?text=Hola%2C%20quiero%20solicitar%20una%20cotizacion%20con%20Macroambiente." target="_blank" rel="noreferrer">WhatsApp empresa</a>
-        </div>
       </div>
+
+      <div class="container risk-grid" id="risk-grid"></div>
     </section>
 
-    <section class="trust-band reveal" id="credibilidad" aria-label="Credibilidad inmediata">
-      <div class="section-heading">
-        <p class="trust-label">Credibilidad inmediata</p>
-        <h2>Por que confiar en Macroambiente?</h2>
-      </div>
-      <div class="trust-grid">
-        <article>
-          <p class="trust-heading">Resolucion sanitaria SEREMI vigente</p>
-          <p>Autorizados para realizar intervenciones y control sanitario.</p>
-        </article>
-        <article>
-          <p class="trust-heading">Tecnicos capacitados en ACHICPLA</p>
-          <p>Personal capacitado bajo estandares de la Asociacion Chilena de Empresas de Control de Plagas.</p>
-        </article>
-        <article>
-          <p class="trust-heading">Intervenciones certificadas</p>
-          <p>Cada servicio incluye respaldo documental para fiscalizaciones y auditorias.</p>
-        </article>
-        <article>
-          <p class="trust-heading">Mas de 15 anos de experiencia</p>
-          <p>En control de plagas y cumplimiento sanitario.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="macro-section reveal" id="macroambiente">
-      <div class="section-heading">
-        <p class="section-kicker">El macroambiente de una empresa</p>
-        <h2>Que es el macroambiente de una empresa?</h2>
-      </div>
-      <div class="macro-layout">
-        <div class="macro-statement">
-          <p>Todos aquellos factores externos que pueden afectar la operacion de tu empresa y que no estan bajo tu control:</p>
-        </div>
-        <div class="macro-steps">
-          <article>
-            <span>01</span>
-            <div>
-              <h3>Clima y humedad</h3>
-              <p>Residuos y almacenaje.</p>
-            </div>
-          </article>
-          <article>
-            <span>02</span>
-            <div>
-              <h3>Circulacion de personal</h3>
-              <p>Infraestructura colindante.</p>
-            </div>
-          </article>
-          <article>
-            <span>03</span>
-            <div>
-              <h3>Presencia de vectores</h3>
-              <p>Exigencias sanitarias.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div class="macro-list">
-        <p>Este concepto define tanto nuestro nombre como nuestra mision.</p>
-        <p>Prevenir, controlar y reducir esos riesgos mediante soluciones que resguardan tus instalaciones y protegen la reputacion de tu negocio.</p>
-      </div>
-    </section>
-
-    <section class="services-section reveal" id="servicios">
-      <div class="section-heading">
+    <section class="section-block services-section" id="servicios">
+      <div class="container section-intro reveal">
         <p class="section-kicker">Servicios</p>
-        <h2>Servicios</h2>
+        <h2>Una oferta más clara, más útil y más alineada con la operación real del cliente.</h2>
+        <p>
+          Nuestra propuesta no enumera solo tratamientos: organiza la solución en servicios con valor operativo,
+          prevención, seguimiento y respaldo documentable.
+        </p>
       </div>
-      <div class="services-list">
-        <article class="service-item">
-          <p class="service-index">01</p>
-          <div>
-            <h3>Desinsectacion</h3>
-          </div>
+
+      <div class="service-marquee" aria-label="Servicios especializados de Macroambiente">
+        <div class="service-track" id="service-track"></div>
+      </div>
+    </section>
+
+    <section class="section-block process-section" id="proceso">
+      <div class="container section-intro reveal">
+        <p class="section-kicker">Cómo trabajamos</p>
+        <h2>Un proceso entendible para que el cliente sepa qué esperar desde la inspección hasta el respaldo técnico.</h2>
+      </div>
+
+      <div class="container timeline" id="timeline"></div>
+    </section>
+
+    <section class="section-block evidence-section" id="evidencia">
+      <div class="container evidence-heading reveal">
+        <h2>Han confiado en nosotros</h2>
+      </div>
+
+      <div class="container evidence-visual reveal">
+        <div class="client-marquee" aria-label="Empresas que han confiado en Macroambiente">
+          <div class="client-track" id="client-track"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block faq-section">
+      <div class="container section-intro reveal">
+        <p class="section-kicker">Preguntas clave</p>
+        <h2>Respuestas que reducen fricción antes del contacto comercial.</h2>
+      </div>
+
+      <div class="container faq-grid">
+        <article class="faq-card reveal">
+          <h3>¿Atienden empresas con exigencias de auditoría?</h3>
+          <p>Sí. La propuesta está orientada a operación formal, respaldo y control técnico verificable.</p>
         </article>
-        <article class="service-item">
-          <p class="service-index">02</p>
-          <div>
-            <h3>Desratizacion</h3>
-          </div>
+        <article class="faq-card reveal">
+          <h3>¿Solo hacen desinsectación y desratización?</h3>
+          <p>No. La oferta se entiende mejor como prevención, control, saneamiento y manejo integrado de riesgo.</p>
         </article>
-        <article class="service-item">
-          <p class="service-index">03</p>
-          <div>
-            <h3>Sanitizacion</h3>
-          </div>
-        </article>
-        <article class="service-item">
-          <p class="service-index">04</p>
-          <div>
-            <h3>Manejo Integrado de Plagas (MIP)</h3>
-          </div>
-        </article>
-        <article class="service-item">
-          <p class="service-index">05</p>
-          <div>
-            <h3>Control de Aves</h3>
-          </div>
+        <article class="faq-card reveal">
+          <h3>¿Ustedes emiten el certificado que me exige SEREMI para abrir mi negocio?</h3>
+          <p>Sí. Y no solo eso: te asesoramos durante el proceso hasta la obtención de tu R.S.S.</p>
         </article>
       </div>
     </section>
 
-    <section class="clients-section reveal" id="clientes">
-      <div class="section-heading">
-        <p class="section-kicker">Han confiado en nosotros</p>
-        <h2>Empresas que trabajan con Macroambiente</h2>
-      </div>
-      <div class="clients-grid">
-        <figure class="client-logo"><span class="client-name">Geosupport</span></figure>
-        <figure class="client-logo"><span class="client-name">Finning CAT</span></figure>
-        <figure class="client-logo"><span class="client-name">Laplace</span></figure>
-        <figure class="client-logo"><span class="client-name">Cabanas Palmeira San Felipe</span></figure>
-        <figure class="client-logo"><span class="client-name">Sigloverde</span></figure>
-        <figure class="client-logo"><span class="client-name">Cencomex</span></figure>
-        <figure class="client-logo"><span class="client-name">Royal Canin</span></figure>
-        <figure class="client-logo"><span class="client-name">Lucas Bar</span></figure>
-      </div>
-    </section>
+    <section class="cta-final" id="contacto">
+      <div class="container cta-shell reveal">
+        <div>
+          <p class="section-kicker">Contacto directo</p>
+          <h2>Solicita inspección técnica o cotización para evaluar tu riesgo sanitario actual.</h2>
+          <p>
+            Agenda una revisión técnica y recibe una orientación clara para cumplir con las exigencias sanitarias de tu operación.
+          </p>
+        </div>
 
-    <section class="cta-section reveal" id="contacto">
-      <div class="cta-copy">
-        <p class="section-kicker">CTA final</p>
-        <h2>Solicita una inspeccion tecnica o cotizacion</h2>
-        <div class="cta-actions">
-          <a class="button button-primary" href="mailto:contacto@macroambiente.cl?subject=Solicitud%20de%20cotizacion%20-%20Macroambiente">Solicitar cotizacion</a>
-          <a class="button button-tertiary" href="https://wa.me/56991882130?text=Hola%2C%20quiero%20solicitar%20una%20cotizacion%20con%20Macroambiente." target="_blank" rel="noreferrer">WhatsApp empresa</a>
-          <a class="button button-secondary" href="https://wa.me/56991882130?text=Hola%2C%20quiero%20agendar%20una%20inspeccion%20tecnica%20con%20Macroambiente." target="_blank" rel="noreferrer">Agendar inspeccion tecnica</a>
+        <div class="cta-buttons">
+          <a
+            class="btn btn-primary"
+            href="mailto:contacto@macroambiente.cl?subject=Solicitud%20de%20cotizacion%20-%20Macroambiente"
+          >
+            <i class="fa-solid fa-file-signature" aria-hidden="true"></i>
+            Solicitar cotización
+          </a>
+          <a
+            class="btn btn-secondary"
+            href="https://wa.me/56987229688?text=Hola%2C%20quiero%20solicitar%20una%20cotizacion%20con%20Macroambiente."
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            WhatsApp empresa
+          </a>
+          <a
+            class="btn btn-outline"
+            href="https://wa.me/56987229688?text=Hola%2C%20quiero%20agendar%20una%20inspeccion%20tecnica%20con%20Macroambiente."
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+            Agendar inspección técnica
+          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <div class="mobile-cta">
-    <a class="button button-primary" href="https://wa.me/56991882130?text=Hola%2C%20quiero%20solicitar%20una%20cotizacion%20con%20Macroambiente." target="_blank" rel="noreferrer">WhatsApp</a>
-    <a class="button button-secondary" href="mailto:contacto@macroambiente.cl?subject=Solicitud%20de%20cotizacion%20-%20Macroambiente">Correo</a>
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <span class="footer-mark-wrap" aria-hidden="true">
+          <img class="footer-brand-mark" src="./assets/logo-icono-cropped.svg" alt="" />
+        </span>
+        <p>Control de plagas y cumplimiento sanitario para empresas, comercios e industrias.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> contacto@macroambiente.cl</p>
+        <a
+          href="https://wa.me/56987229688?text=Hola%2C%20quiero%20contactar%20a%20Macroambiente."
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp: +56 9 8722 9688
+        </a>
+        <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Santiago, Chile</p>
+      </div>
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <p>Desinsectación</p>
+        <p>Desratización</p>
+        <p>Sanitización</p>
+        <p>Control de aves</p>
+      </div>
+    </div>
+    <div class="container footer-logo-strip" aria-label="Respaldos institucionales">
+      <img src="./assets/img/logo-minsal-chile.png" alt="Ministerio de Salud de Chile" />
+      <img src="./assets/img/achicpla.png" alt="ACHICPLA" />
+      <img src="./assets/img/banner-chilecompra.jpg" alt="ChileCompra, ChileProveedores y Mercado Público" />
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Macroambiente - Control de plagas y cumplimiento sanitario. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <div class="mobile-bar">
+    <a
+      class="btn btn-primary"
+      href="https://wa.me/56987229688?text=Hola%2C%20quiero%20solicitar%20una%20cotizacion%20con%20Macroambiente."
+      target="_blank"
+      rel="noreferrer"
+    >
+      WhatsApp
+    </a>
+    <a
+      class="btn btn-secondary"
+      href="mailto:contacto@macroambiente.cl?subject=Solicitud%20de%20cotizacion%20-%20Macroambiente"
+    >
+      Correo
+    </a>
   </div>
 
-  <script src="./script.js"></script>
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
