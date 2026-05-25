@@ -94,14 +94,14 @@ const timelineItems = [
 ];
 
 const clientItems = [
-  ["GeoSupport", "./assets/clientes/geosupport.png"],
-  ["Finning CAT", "./assets/clientes/finning-cat.png"],
-  ["LAPLACE Educación Superior", "./assets/clientes/laplace.png"],
-  ["Cabañas Palmeira San Felipe", "./assets/clientes/cabanas-palmeira.png"],
-  ["Siglo Verde", "./assets/clientes/siglo-verde.png"],
-  ["CENCOMEX", "./assets/clientes/cencomex.png"],
-  ["Royal Canin", "./assets/clientes/royal-canin.png"],
-  ["Lucas Bar", "./assets/clientes/lucas-bar.png"]
+  ["GeoSupport", "./assets/clientes/geosupport.webp"],
+  ["Finning CAT", "./assets/clientes/finning-cat.webp"],
+  ["LAPLACE Educación Superior", "./assets/clientes/laplace.webp"],
+  ["Cabañas Palmeira San Felipe", "./assets/clientes/cabanas-palmeira.webp"],
+  ["Siglo Verde", "./assets/clientes/siglo-verde.webp"],
+  ["CENCOMEX", "./assets/clientes/cencomex.webp"],
+  ["Royal Canin", "./assets/clientes/royal-canin.webp"],
+  ["Lucas Bar", "./assets/clientes/lucas-bar.webp"]
 ];
 
 function mountCards(targetId, items, mapper) {
